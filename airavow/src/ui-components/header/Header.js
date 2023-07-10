@@ -1,99 +1,97 @@
 import React from "react";
-import './Header.css';
+import logo from '../../assets/hero-icon.png';
+
+import "./Header.css";
 
 const Header = () => {
   return (
-      <header
-        id="header"
-        class="fixed-top d-flex align-items-md-center header-transparent"
-      >
-        <div class="container d-flex justify-content-between align-items-center">
-          <div class="logo">
-            <h1 class="text-light">
-              <a href="index.html">
-                <span>Airavow</span>
-              </a>
-            </h1>
-            <a href="index.html">
-              <img src="assets/img/logo.png" alt="" class="img-fluid" />
-            </a>
+    <div>
+      <div className="container-fluid">
+        <div className="row" style={{backgroundColor: 'rgb(7, 78, 78)'}}>
+          <div className="col-1"></div>
+          <div className="col-3 p-0 text-center">
+            <p style={{color:'white', marginBottom:'0', marginTop:'0', fontWeight:'lighter', fontSize:'0.75rem'}}>
+              <i className="fa-solid fa-envelope p-1"></i>
+              abhishekranjansrivastava19@gmail.com
+            </p>
+          </div>
+          <div className="col-2 p-0 text-center">
+            <p style={{color:"white", marginBottom:'0', marginTop:'0', fontWeight:'lighter', fontSize:'0.75rem'}}>
+              <i className="fa-solid fa-phone p-1"></i>
+              +91 7905355614
+            </p>
           </div>
 
-          <nav id="navbar" class="navbar">
-            <ul>
-              <li>
-                <a class="active " href="index.html">
+          
+          <div className="col-4 p-0 text-center">
+            <p style={{color:"white", marginBottom:'0', marginTop:'0', fontWeight:'lighter', fontSize:'0.75rem'}}>Affilated to CBSE (New Delhi) Affi No. 123456789</p>
+          </div>
+
+          <div className="col-2 p-0 text-center">
+            <p style={{color:"white", marginBottom:'0', marginTop:'0', fontWeight:'lighter', fontSize:'0.75rem'}}>
+              <i className="fa-brands fa-facebook px-2"></i>
+              <i className="fa-brands fa-instagram px-2"></i>
+              <i className="fa-brands fa-youtube px-2"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="container-fluid">
+          <div className="image-container" style={{height:'50px'}}>
+            <img src={logo} width={100} height={100} style={{marginTop:'-25px', marginLeft:'30px'}}/>
+          </div>
+          <a className="navbar-brand" href="#">
+            {/* <img src={logo}/> */}
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav" style={{flexDirection: 'column-reverse'}}>
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">
                   Home
                 </a>
               </li>
-              <li>
-                <a href="about.html">About</a>
-              </li>
-              <li>
-                <a href="services.html">Services</a>
-              </li>
-              <li>
-                <a href="portfolio.html">Portfolio</a>
-              </li>
-              <li>
-                <a href="team.html">Team</a>
-              </li>
-              <li>
-                <a href="blog.html">Blog</a>
-              </li>
-              <li>
-                <a href="Sign In.html">Sign In</a>
-              </li>
-              <li class="dropdown">
-                <a href="#">
-                  <span>Drop Down</span> <i class="bi bi-chevron-down"></i>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  School Campus
                 </a>
-                <ul>
-                  <li>
-                    <a href="#">Drop Down 1</a>
-                  </li>
-                  <li class="dropdown">
-                    <a href="#">
-                      <span>Deep Drop Down</span>
-                      <i class="fa-solid fa-chevron-right"></i>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="#">Deep Drop Dawload</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Items</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Services</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 4</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 5</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">Drop Down 2</a>
-                  </li>
-                  <li>
-                    <a href="#">Drop Down 3</a>
-                  </li>
-                  <li>
-                    <a href="#">Drop Down 4</a>
-                  </li>
-                </ul>
               </li>
-              <li>
-                <a href="contact.html">Contact Us</a>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Academic
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Gallery</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Contact</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Disclouser</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Downloads</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Student Portal</a>
               </li>
             </ul>
-            <i class="fa-solid fa-light fa-list"></i>
-          </nav>
+          </div>
         </div>
-      </header>
+      </nav>
+    </div>
   );
 };
 

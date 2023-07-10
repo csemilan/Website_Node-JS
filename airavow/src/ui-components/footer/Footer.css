@@ -1,0 +1,32 @@
+.footer ul li {
+    list-style: none;
+}
+
+.footer-list {
+    padding-left: 0;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    font-weight:normal;
+    color: rgb(7, 78, 78);
+}
+
+.footer ul li i {
+    color: grey;
+}
+
+.footer-social-icons {
+    background-color: rgb(7, 78, 78);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 0;
+    font-weight: lighter;
+    font-size:1rem;
+}
+
+.about {
+    color: rgb(7, 78, 78);
+    font-size: large;
+    font-weight: 900;
+}

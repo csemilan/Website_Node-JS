@@ -1,7 +1,10 @@
-/* .App {
-  text-align: center;
-} */
+.App {
+  /* text-align: center; */
+  background-color: azure;
+}
 
-
+i {
+  color: rgb(168, 164, 164);
+}
 
 
