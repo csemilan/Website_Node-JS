@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="row banner-top secondary-color pb-4">
         <div className="col-2"></div>
         <div className="col-8 p-0 text-center">
-          <div className="banner-top-content fifth-text-color">
+          <div className="banner-top-content fifth-text-color" style={{marginTop:'12%'}}>
             <h2>
               Addmimission open for <span>2023-2024</span>
             </h2>

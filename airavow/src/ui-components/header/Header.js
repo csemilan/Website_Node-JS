@@ -5,7 +5,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
+    <div style={{position:'fixed', width:'100%', zIndex: '1'}}>
       <div className="container-fluid">
         <div className="row pt-1 pb-1" style={{ backgroundColor: "#14BDEE" }}>
           <div className="col-1"></div>

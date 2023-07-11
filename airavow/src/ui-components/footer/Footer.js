@@ -16,24 +16,24 @@ const Footer = () => {
             free environment. Take a look of this journey "
           </p>
         </div>
-        <div className="col-6 col-md-2 footer">
-          <h4 className="p-1 primary-text-color">Quick Links</h4>
+        <div className="col-6 col-md-2 footer" style={{marginLeft:'5%'}}>
+          <h4 className="p-1 primary-text-color">Quick<span className="secondary-text-color">Links</span></h4>
           <ul className="footer-list">
-            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="#">Campus</a></li>
-            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="#">Laboratories</a></li>
-            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="#">Library</a></li>
-            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="#">Sports</a></li>
-            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="#">Fee Structure</a></li>
+            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="/campus">Campus</a></li>
+            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="/laboratories">Laboratories</a></li>
+            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="/library">Library</a></li>
+            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="/sports">Sports</a></li>
+            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="/fee-structure">Fee Structure</a></li>
           </ul>
         </div>
         <div className="col-6 col-md-2 footer">
         <h4 className="p-1 primary-text-color">Essentials</h4>
           <ul className="footer-list">
-            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="#">Campus</a></li>
-            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="#">Laboratories</a></li>
-            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="#">Library</a></li>
-            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="#">Sports</a></li>
-            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="#">Fee Structure</a></li>
+            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="#">Downloads</a></li>
+            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="#">Academic Planner</a></li>
+            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="#">Transfer Certificate</a></li>
+            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="/diclouser">Disclouser</a></li>
+            <li><i className="fa fa-solid fa-chevron-right p-2"></i><a href="/contact">Contact Us</a></li>
           </ul>
         </div>
       </div>
