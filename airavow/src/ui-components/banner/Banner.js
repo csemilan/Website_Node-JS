@@ -31,7 +31,7 @@ const Banner = () => {
               src="https://images.pexels.com/photos/5212653/pexels-photo-5212653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               className="d-block w-100"
               alt="..."
-              style={{ width: "100%", height: "500px" }}
+              style={{ width: "100%", height: "90vh" }}
             />
           </div>
           <div className="carousel-caption d-md-block fifth-color">
