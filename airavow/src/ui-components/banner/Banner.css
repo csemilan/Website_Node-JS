@@ -1,27 +1,29 @@
 .banner-top {
-    background-color: rgb(4, 30, 30);
     color: white;
     padding: 10px 0 10px 0;
 }
 
 .banner-top-content {
     margin-top: 10px;
-    background-color: white;
-    color: rgb(7,78,78);
-    border-left: 15px solid rgb(7,78,78);
-    border-right: 15px solid rgb(7,78,78);
+    
 }
 
 .banner-top-content button {
     margin-left: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-radius: 0;
-    background-color: rgb(7,78,78) !important;
-    box-shadow: 5px 0px 15px rgba(255,255,255);
+    
+    box-shadow: 5px 0px 12px #2A303F;
 }
 
 .banner-top-content button:hover{
-    color: aliceblue;
-    background-color: rgb(10, 100, 100) !important;
+    color: white;
+    background-color: #2A303F !important;
+}
+
+.carousel-caption {
+    opacity: 0.5;
+    /* padding: 5% 5% 5% 5%; */
+    margin-bottom: 5%;
+    width: 50%;
 }

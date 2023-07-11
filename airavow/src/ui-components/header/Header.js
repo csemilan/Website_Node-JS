@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div>
       <div className="container-fluid">
-        <div className="row" style={{backgroundColor: 'rgb(7, 78, 78)'}}>
+        <div className="row pt-1 pb-1" style={{backgroundColor: '#14BDEE'}}>
           <div className="col-1"></div>
           <div className="col-3 p-0 text-center">
             <p style={{color:'white', marginBottom:'0', marginTop:'0', fontWeight:'lighter', fontSize:'0.75rem'}}>

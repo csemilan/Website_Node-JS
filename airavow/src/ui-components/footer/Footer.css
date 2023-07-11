@@ -9,15 +9,15 @@
 .footer ul li a {
     text-decoration: none;
     font-weight:normal;
-    color: rgb(7, 78, 78);
+    color: white;
 }
 
 .footer ul li i {
-    color: grey;
+    color: white;
 }
 
 .footer-social-icons {
-    background-color: rgb(7, 78, 78);
+    background-color: #14BDEE;
     color: white;
     padding-top: 10px;
     padding-bottom: 0;
@@ -26,7 +26,53 @@
 }
 
 .about {
-    color: rgb(7, 78, 78);
+    color: white;
     font-size: large;
     font-weight: 900;
+}
+
+
+.footer-container {
+    background-color: #2A303F;
+    opacity: 0.83;
+}
+
+.footer-image {
+    background-image: url(../../assets/earth-earth-at-night-night-lights-41949.jpeg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 1;
+}
+
+.primary-color {
+    background-color: #14BDEE;
+}
+
+.secondary-color {
+    background-color: white;
+}
+
+.tirtiary-color {
+    background-color: #F3F3F3;
+}
+
+.fifth-color {
+    background-color: #2A303F;
+}
+
+.primary-text-color {
+    color: white;
+}
+
+.secondary-text-color {
+    color: #14BDEE;
+}
+
+.tertiary-text-color {
+    color: #F3F3F3;
+}
+
+.fifth-text-color {
+    color: #2A303F;
 }
