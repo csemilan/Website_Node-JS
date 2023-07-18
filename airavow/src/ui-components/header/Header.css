@@ -5,6 +5,7 @@
 .nav-link {
     color: rgb(7, 78, 78) !important;
     font-weight: bold;
+    font-size: 1.3rem;
 }
 
 .nav-link:hover {

@@ -20,6 +20,16 @@ import MediaCoverage from "./pages/MediaCoverage";
 import GalleryAlbum from "./pages/GalleryAlbum";
 import Contact from "./pages/Contact";
 import Disclouser from "./pages/Disclouser";
+import Founder from "./pages/Founder";
+import Principal from "./pages/Principal";
+import Director from "./home-page/Director";
+import Manager from "./pages/Manager";
+import Chairman from "./pages/Chairman";
+import ContactUs from "./home-page/ContactUs";
+import Downloads from "./pages/Downloads";
+import Gallery from "./pages/Gallery";
+import Images from "./pages/Images";
+import AdmissionForm from "./pages/AdmissionForm";
 
 function App() {
   return (
@@ -45,6 +55,15 @@ function App() {
             <Route path="gallery-album" element={<GalleryAlbum />} />
             <Route path="contact" element={<Contact />} />
             <Route path="disclouser" element={<Disclouser />} />
+            <Route path="founder" element={<Founder />} />
+            <Route path="principal" element={<Principal />} />
+            <Route path="director" element={<Director />} />
+            <Route path="manager" element={<Manager />} />
+            <Route path="chairman" element={<Chairman />} />
+            <Route path="download_documents" element={<Downloads />} />
+            <Route path="gallery_album/gallery/:albumId" element={<Gallery />} />
+            <Route path="gallery_album/gallery/images/:galleryId" element={<Images />} />
+            <Route path="admission_form" element={<AdmissionForm />} />
         </Routes>
       </BrowserRouter>
       <Footer/>

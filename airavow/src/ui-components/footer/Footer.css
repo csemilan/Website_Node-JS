@@ -17,7 +17,7 @@
 }
 
 .footer-social-icons {
-    background-color: #14BDEE;
+    background-color: rgba(255,193,7,255);
     color: white;
     padding-top: 10px;
     padding-bottom: 0;
@@ -33,7 +33,7 @@
 
 
 .footer-container {
-    background-color: #2A303F;
+    background-color: #0a1638;
     opacity: 0.83;
 }
 
@@ -43,10 +43,11 @@
     height: 100%;
     background-size: cover;
     opacity: 1;
+    border: 2px solid rgba(255,193,7,255);
 }
 
 .primary-color {
-    background-color: #14BDEE;
+    background-color: #0a1638;
 }
 
 .secondary-color {
@@ -58,7 +59,7 @@
 }
 
 .fifth-color {
-    background-color: #2A303F;
+    background-color: #0a1638;
 }
 
 .primary-text-color {
@@ -66,7 +67,7 @@
 }
 
 .secondary-text-color {
-    color: #14BDEE;
+    color: rgba(255,193,7,255);
 }
 
 .tertiary-text-color {
@@ -74,5 +75,5 @@
 }
 
 .fifth-text-color {
-    color: #2A303F;
+    color: #0a1638;
 }

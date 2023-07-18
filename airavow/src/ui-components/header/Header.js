@@ -1,65 +1,65 @@
 import React from "react";
-import logo from "../../assets/hero-icon.png";
+import logo from "../../assets/logo.jpg";
 
 import "./Header.css";
 
 const Header = () => {
   return (
-    <div style={{position:'fixed', width:'100%', zIndex: '1'}}>
+    <div style={{height:'17vh', width:'100%', zIndex: '2', position:'fixed'}}> 
       <div className="container-fluid">
-        <div className="row pt-1 pb-1" style={{ backgroundColor: "#14BDEE" }}>
+        <div className="row pt-3 pb-3 primary-color"> 
           <div className="col-1"></div>
-          <div className="col-3 p-0 text-center">
+          <div className="col-12 col-md-3 p-0 text-center">
             <p
               style={{
                 color: "white",
                 marginBottom: "0",
                 marginTop: "0",
                 fontWeight: "lighter",
-                fontSize: "0.75rem",
+                fontSize: "1rem",
               }}
             >
               <i className="fa-solid fa-envelope p-1"></i>
-              abhishekranjansrivastava19@gmail.com
+              snsglobalschool3@gmail.com
             </p>
           </div>
-          <div className="col-2 p-0 text-center">
+          <div className="col-12 col-md-2 p-0 text-center">
             <p
               style={{
                 color: "white",
                 marginBottom: "0",
                 marginTop: "0",
                 fontWeight: "lighter",
-                fontSize: "0.75rem",
+                fontSize: "1rem",
               }}
             >
               <i className="fa-solid fa-phone p-1"></i>
-              +91 7905355614
+              +91 8188875100
             </p>
           </div>
 
-          <div className="col-4 p-0 text-center">
+          <div className="col-12 col-md-4 p-0 text-center">
             <p
               style={{
                 color: "white",
                 marginBottom: "0",
                 marginTop: "0",
                 fontWeight: "lighter",
-                fontSize: "0.75rem",
+                fontSize: "1rem",
               }}
             >
-              Affilated to CBSE (New Delhi) Affi No. 123456789
+              To Be Affilated From CBSE (New Delhi)
             </p>
           </div>
 
-          <div className="col-2 p-0 text-center">
+          <div className="col-12 col-md-2 p-0 text-center">
             <p
               style={{
                 color: "white",
                 marginBottom: "0",
                 marginTop: "0",
                 fontWeight: "lighter",
-                fontSize: "0.75rem",
+                fontSize: "1rem",
               }}
             >
               <i className="fa-brands fa-facebook px-2"></i>
@@ -69,18 +69,18 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg secondary-color" style={{boxShadow:'5px 0 10px grey', padding:'5px'}}>
         <div className="container-fluid">
-          <div className="image-container" style={{ height: "50px" }}>
+          <div className="image-container">
             <img
               src={logo}
               width={100}
-              height={100}
-              style={{ marginTop: "-25px", marginLeft: "30px" }}
+              height={95}
+              style={{ marginLeft: "10%", boxShadow:'none'}}
             />
           </div>
           <a className="navbar-brand" href="#">
-            {/* <img src={logo}/> */}
+            <h2 className="fifth-text-color" style={{marginLeft:'10%'}}><span className="secondary-text-color">Shri Natthu Singh</span> <br/> Global School</h2>
           </a>
           <button
             className="navbar-toggler"
@@ -104,9 +104,9 @@ const Header = () => {
                   Home
                 </a>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -114,31 +114,31 @@ const Header = () => {
                 >
                   School Campus
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/campus">
+                    <a className="dropdown-item" href="/campus">
                       Campus
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/laboratories">
+                    <a className="dropdown-item" href="/laboratories">
                       Laboratories
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/library">
+                    <a className="dropdown-item" href="/library">
                       Library
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/sports">
+                    <a className="dropdown-item" href="/sports">
                       Sports
                     </a>
                   </li>
                 </ul>
               </li>
 
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -148,63 +148,63 @@ const Header = () => {
                 >
                   Academic
                 </a>
-                <ul class="dropdown-menu">
-                  <li>
+                <ul className="dropdown-menu">
+                  {/* <li>
                     <a class="dropdown-item" href="/management">
                       Management Committee
                     </a>
-                  </li>
+                  </li> */}
                   <li>
-                    <a class="dropdown-item" href="/academic">
+                    <a className="dropdown-item" href="/academic">
                       Academic
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a class="dropdown-item" href="/achievers">
                       Achievers
                     </a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a class="dropdown-item" href="/guidelines">
                       Guidelines
                     </a>
-                  </li>
+                  </li> */}
 
-                  <li>
+                  {/* <li>
                     <a class="dropdown-item" href="/faculty">
                       Faculty
                     </a>
-                  </li>
+                  </li> */}
 
                   <li>
-                    <a class="dropdown-item" href="/carriculum">
+                    <a className="dropdown-item" href="/carriculum">
                       Carriculum
                     </a>
                   </li>
 
-                  <li>
+                  {/* <li>
                     <a class="dropdown-item" href="/cws">
                       Class Wise Student
                     </a>
-                  </li>
+                  </li> */}
 
-                  <li>
+                  {/* <li>
                     <a class="dropdown-item" href="/cwbl">
                       Class Wise Books List
                     </a>
-                  </li>
+                  </li> */}
 
-                  <li>
+                  {/* <li>
                     <a class="dropdown-item" href="/teachers-training-detail">
                       Teachers Training Details
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -212,14 +212,14 @@ const Header = () => {
                 >
                   Gallery
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/media-coverage">
+                    <a className="dropdown-item" href="/media-coverage">
                       Media Coverage
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/gallery-album">
+                    <a className="dropdown-item" href="/gallery-album">
                       Gallery Album
                     </a>
                   </li>
@@ -227,19 +227,19 @@ const Header = () => {
                 </ul>
               </li>
               
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="/contact">
                   Contact
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="/disclouser">
                   Disclouser
                 </a>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -247,58 +247,58 @@ const Header = () => {
                 >
                   Downloads
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/campus">
+                    <a className="dropdown-item" href="/download_documents">
                       Downloads Documents
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/laboratories">
+                    <a className="dropdown-item" href="/admission_form">
                       Admission From
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/library">
+                    <a className="dropdown-item" href="/library">
                       Fee Structure
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/sports">
+                    <a className="dropdown-item" href="/sports">
                       Datesheet
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="/sports">
+                    <a className="dropdown-item" href="/sports">
                       Academic Planner
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="/sports">
+                    <a className="dropdown-item" href="/sports">
                       Vacancy Form
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="/sports">
+                    <a className="dropdown-item" href="/sports">
                       Summer Assignment
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="/sports">
+                    <a className="dropdown-item" href="/sports">
                       Transfer Certificate
                     </a>
                   </li>
                 </ul>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#">
                   Student Portal
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -308,3 +308,5 @@ const Header = () => {
 };
 
 export default Header;
+
+// position:'fixed',
