@@ -1,7 +1,30 @@
-/* .App {
-  text-align: center;
-} */
+.App {
+  /* text-align: center; */
+  /* background-color: azure; */
+  overflow-x: hidden;
+}
 
+i {
+  color: white;
+}
 
+.card {
+  width: 100%;
+  margin-top: 10%;
+  /* height: 270px; */
+  /* color: white !important; */
+  /* background-color: #0a1638; */
+  border-radius: 3rem 0rem 3rem 0rem !important;
+  box-shadow: 5px 0 10px grey;
+  /* border-radius: 0 !important; */
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  box-shadow: 5px 0 15px rgb(151, 149, 149);
+}
 
 

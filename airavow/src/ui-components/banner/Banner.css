@@ -1,0 +1,63 @@
+.banner-top {
+    color: white;
+    padding: 10px 0 10px 0;
+    border: 2px solid rgba(255,193,7,255);
+}
+
+.banner-top-content {
+    margin-top: 10px;
+    
+}
+
+.banner-top-content button {
+    margin-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    box-shadow: 5px 0px 12px #2A303F;
+}
+
+.banner-top-content button:hover{
+    color: white;
+    background-color: #2A303F !important;
+}
+
+.caption {
+    position: absolute;
+    /* background-color: black; */
+    width: 45%;
+    top: 0;
+    opacity: 0.5;
+    left: 0;
+    bottom: 0;
+    color: white;
+    text-transform: capitalize;
+    background: #2A303F;
+    backdrop-filter: blur(10px);
+    padding: 2rem 2rem;
+    /* border-radius: 0rem 5rem 5rem 0 ; */
+    z-index: 1;
+  }
+
+
+
+ .heading {
+    color: white;
+    margin-top: 20%;
+  } 
+
+
+
+.carousel-caption {
+    z-index: 2;
+    color: white !important;
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+   .banner-top {
+      margin-top: 15%;
+    }
+  }
+
+

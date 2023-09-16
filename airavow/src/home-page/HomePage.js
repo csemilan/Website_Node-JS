@@ -1,9 +1,14 @@
 import React from 'react'
-import Header from '../ui-components/header/Header'
+import Banner from '../ui-components/banner/Banner'
+import MainContainer from './MainContainer'
+import ContactUs from './ContactUs'
 
 const HomePage = () => {
   return (
     <div>
+      <Banner/>
+      <MainContainer/>
+      <ContactUs/>
     </div>
   )
 }

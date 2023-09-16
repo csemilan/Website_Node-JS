@@ -1,0 +1,45 @@
+.card {
+    /* height: 100vh !importan; */
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+
+.card-body {
+    border: 0 !important;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+
+.accordion {
+    border: 0 !important;
+}
+
+.accordion-button{
+    border: 0 !important;
+    border-radius: 10px !important;
+}
+
+.accordion-item {
+    border: 0 !important;
+}
+
+.accordion-button:hover {
+    background-color: rgba(221, 236, 239, 0.927) !important;
+    border-radius: 10px !important;
+    color: rgba(2, 134, 138, 0.781) !important;
+}
+
+
+.accordion-button:focus {
+    z-index: 0 !important;
+    border-color: rgba(221, 236, 239, 0.927) !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.active {
+    background-color: rgba(221, 236, 239, 0.927) !important;
+    color: rgba(2, 134, 138, 0.781) !important;
+}
+

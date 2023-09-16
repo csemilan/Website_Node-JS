@@ -1,0 +1,42 @@
+.notice-board {
+  /* background-image: url('../assets/pexels-photo-3769138.jpeg'); */
+  /* background-size: 100% 150%; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.scrolling-text-container {
+  overflow: hidden;
+  height: 150px;
+}
+
+.scrolling-text {
+  white-space: wrap;
+  animation: scroll-top 8s linear infinite;
+}
+
+@keyframes scroll-top {
+  0% {
+    transform: translateY(100%);
+  }
+  
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.news {
+    border-radius: 6rem 0rem 6rem 0 !important;
+    background-color: #0a1638
+}
+
+.notice {
+    border-radius: 0rem 6rem 0rem 6rem !important;
+    background-color: #0a1638
+}
+
+.notice1 {
+    /* border-radius: 0rem 10rem 0rem 10rem !important; */
+    background-color: #0a1638;
+    border: 2px solid rgba(255,193,7,255);
+}
